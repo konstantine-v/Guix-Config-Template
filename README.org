@@ -1,0 +1,14 @@
+#+TITLE: Guix Configuration File Template
+This is a template for use with the Guix Package Management.
+* Installation
+- Clone the git repo.
+- *Important*: Make sure to edit the config to match your system info.
+- When you're ready to reconfigure your system run ~$ sudo -E guix system reconfigure .config/config.scm~
+- If there are no errors then reboot your machine and enjoy your new system.
+* Notes
+Please make sure to read the Guix manual for more information on what to supply your sonfig with. You don't need to know Scheme/Guile to work with Guix, but having that knowledge does make it easier.
+If you don't like the packages provided then feel free to change them, afterall it's just a template.
+
+Please ensure that *before* you run the reconfigure script to check that your system info matches what will be in the config, otherwise you will cause errors on your machine, to which I am not responsible for. Understand what you are doing before doing it.
+
+I'll make changes to this config as time goes on and I read more regarding Guix.
